@@ -1,0 +1,57 @@
+Quick Installation Guide... 
+
+**** Requirements
+
+-OpenSceneGraph (OSG) version 0.9.6-2 (you can reach for install manual on
+www.openscenegraph.org.) 
+-OpenDynamicsEngine ODE CVS snapshot from 23.05.2004 (provided on our website)
+-Qwt version 0.4.1 (provided on our website)
+-QT version 3.2.3
+
+All of the above libraries should be installed.
+The include paths should be available globally.
+
+SPECIAL NOTES: 
+
+The CVS snapshot of ODE that we provide is pre-configured
+for TriMesh collisions. Just extract that file and type;
+
+make
+
+Then you can follow the instructions to install ODE.
+
+Qwt library should be installed such that all the 
+include files for Qwt, should reside inside a "qwt"
+directory: such that /usr/local/include/qwt/
+Refer to Qwt installation manual to compile Qwt and
+install it.
+
+www.openscenegraph.org provides a bundle of OpenThreads,
+Producer and OpenSceneGraph. You can download that
+file and install OpenSceneGraph following the instructions.
+
+**** Compilation of 3DPhySims
+
+To compile the project, while you are in the sourcerer
+directory, first type:
+
+qmake
+
+This will generate a Makefile.
+Then, type:
+
+make 
+
+***** Running 3DPhySims
+
+There are two executables created.
+One of them is the editor and the other one
+is the simulator.
+
+Binary files will be created in the ./bin directory
+You can run the programs from there.
+
+./bin/editor
+./bin/simulator
+
+

@@ -1,0 +1,169 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>UiVelocityWidget</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>UiVelocityWidget</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>180</width>
+            <height>268</height>
+        </rect>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>180</width>
+            <height>260</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Velocity</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>4</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Minimum</enum>
+        </property>
+        <spacer row="3" column="0">
+            <property name="name">
+                <cstring>spacer1</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>40</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QGroupBox" row="2" column="0">
+            <property name="name">
+                <cstring>mAngVelocityGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Angular Velocity</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>4</number>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>mAngVelocityXTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>x</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>mAngVelocityXLineEdit</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>mAngVelocityYTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>y</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="1">
+                    <property name="name">
+                        <cstring>mAngVelocityYLineEdit</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>mAngVelocityZTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>z</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="2" column="1">
+                    <property name="name">
+                        <cstring>mAngVelocityZLineEdit</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>mLinVelocityGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Linear Velocity</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>4</number>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>mLinVelocityXTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>x</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>mLinVelocityXLineEdit</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>mLinVelocityYTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>y</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="1">
+                    <property name="name">
+                        <cstring>mLinVelocityYLineEdit</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>mLinVelocityZTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>z</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="2" column="1">
+                    <property name="name">
+                        <cstring>mLinVelocityZLineEdit</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<tabstops>
+    <tabstop>mLinVelocityXLineEdit</tabstop>
+    <tabstop>mLinVelocityYLineEdit</tabstop>
+    <tabstop>mLinVelocityZLineEdit</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
